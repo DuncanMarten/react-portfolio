@@ -12,10 +12,10 @@ function Project(props) {
                         <strong>Name: </strong> {props.name}
                     </li>
                     <li>
-                        <strong>Deployed: </strong> {props.deployed}
+                        <a href={props.deployed} target="_blank" rel="noreferrer"><strong>Deployed</strong></a>
                     </li>
                     <li>
-                        <strong>GitHub: </strong> {props.github}
+                        <a href={props.github} target="_blank" rel="noreferrer"><strong>GitHub Repository</strong></a>
                     </li>
                 </ul>
             </div>
