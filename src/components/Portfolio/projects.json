@@ -1,0 +1,38 @@
+[
+    {
+        "name": "OneStop Job",
+        "image": "../../assets/project_screenshot/OneStopJob.png",
+        "deployed": "https://frostyausty.github.io/OneStopJob/",
+        "github": "https://github.com/frostyausty/OneStopJob"
+    },
+    {
+        "name": "24-Chains",
+        "image": "../../assets/project_screenshot/24-Chains.png",
+        "deployed": "https://dry-mesa-09626.herokuapp.com/",
+        "github": "https://github.com/MarynaPR/24-chains"
+    },
+    {
+        "name": "Weather Dashboard",
+        "image": "../../assets/project_screenshot/Weather.png",
+        "deployed": "https://duncanmarten.github.io/weather-dashboard/",
+        "github": "https://github.com/DuncanMarten/weather-dashboard"
+    },
+    {
+        "name": "Note Taker",
+        "image": "../../assets/project_screenshot/NoteTaker.png",
+        "deployed": "https://mysterious-cliffs-92619.herokuapp.com/notes",
+        "github": "https://github.com/DuncanMarten/note-taker"
+    },
+    {
+        "name": "Password Generator",
+        "image": "../../assets/project_screenshot/Password.png",
+        "deployed": "https://duncanmarten.github.io/password-gen/",
+        "github": "https://github.com/DuncanMarten/password-gen"
+    },
+    {
+        "name": "Budget Tracker",
+        "image": "../../assets/project_screenshot/BudgetTracker.png",
+        "deployed": "https://infinite-thicket-00754.herokuapp.com/",
+        "github": "https://github.com/DuncanMarten/budget-application"
+    }
+]
