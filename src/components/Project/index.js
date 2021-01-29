@@ -2,9 +2,9 @@ import React from "react";
 
 function Project(props) {
     return (
-        <div key={props.name}>
-            <div>
-                <img alt={props.name} src={props.image}></img>
+        <div className="card" key={props.name}>
+            <div className="img-container">
+                <img alt={props.name} src={require(`../../assets/project_screenshot/${props.name}.png`).default}></img>
             </div>
             <div className="content">
                 <ul>

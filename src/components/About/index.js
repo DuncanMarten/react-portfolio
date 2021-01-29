@@ -4,14 +4,13 @@ import Headshot from "../../assets/photos/Duncan.jpg";
 function About() {
 
     return (
-        <div>
-            <div>
-                <h2>About Me</h2>
-            </div>
-            <div>
-                <img src={Headshot} alt="photo of Duncan"></img>
-            </div>
-            <section>
+        <section className="my-5">
+
+            <h2>About Me</h2>
+
+            <img src={Headshot} alt="Duncan" className="my-2"></img>
+
+            <div className="my-2">
                 <p>
                     I am a jack-of-all-trades. Throughout my life I have done a lot of different things and learned many different subjects. 
                     I have learned and worked through how to educate the public using nature as a resource and catalyst. 
@@ -20,8 +19,8 @@ function About() {
                     When I am not learning, you can find me at local recreation areas enjoying nature either with friends or solo. 
                     I find that nature is an ally in me keeping my cool in tough situations.
                 </p>
-            </section>
-        </div>
+            </div>
+        </section>
     )
 }
 

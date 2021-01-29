@@ -3,11 +3,11 @@ import React from "react";
 function Resume() {
 
     return (
-        <div>
+        <div className="my-5">
             <h2>Resume</h2>
             <p>Download my <a href="https://docs.google.com/document/d/1ByBVZMPHRaVUyiGFZGKjqfvMri3ajEWv1i4QkIgo7ec/edit?usp=sharing">Resume</a>!</p>
             <h3>Front-End Proficiencies</h3>
-            <ul>
+            <ul className="my-2">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
@@ -16,7 +16,7 @@ function Resume() {
                 <li>Bootstrap</li>    
             </ul>
             <h3>Back-End Proficiencies</h3>
-            <ul>
+            <ul className="my-2">
                 <li>APIs</li>
                 <li>Node</li>
                 <li>Express</li>

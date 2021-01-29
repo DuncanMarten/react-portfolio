@@ -5,9 +5,9 @@ function Navigation(props) {
 
     return(
         <nav>
-            <ul>
+            <ul className="flex-row">
                 {tabs.map(tab => (
-                    <li key={tab}>
+                    <li className={`mx-2 ${props.currentPage === tab && 'navActive'}`} key={tab}>
                         <a
                             href={'#' + tab}
                             onClick={() => props.handlePageChange(tab)}
