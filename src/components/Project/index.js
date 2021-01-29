@@ -2,7 +2,7 @@ import React from "react";
 
 function Project(props) {
     return (
-        <div>
+        <div key={props.name}>
             <div>
                 <img alt={props.name} src={props.image}></img>
             </div>

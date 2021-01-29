@@ -6,6 +6,7 @@ function Porfolio() {
 
     return(
         <div>
+            <h2>Portfolio</h2>
             {projectsList.map((app) => (
                 <Project
                     name={app.name}
