@@ -34,5 +34,11 @@
         "image": "../../assets/project_screenshot/BudgetTracker.png",
         "deployed": "https://infinite-thicket-00754.herokuapp.com/",
         "github": "https://github.com/DuncanMarten/budget-application"
+    },
+    {
+        "name": "wordUp",
+        "image": "../../assets/project_screenshot/wordUp.png",
+        "deployed": "https://fast-shelf-56121.herokuapp.com/",
+        "github": "https://github.com/njderenne/wordUp"
     }
 ]
